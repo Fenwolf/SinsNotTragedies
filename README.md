@@ -1,4 +1,4 @@
-# SinsNotTragedies
+# Sins, Not Tragedies
 Haven't you people ever heard of closing the goddamn door?!
 
 # What the heck is this?
