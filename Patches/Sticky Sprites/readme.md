@@ -32,8 +32,9 @@ Usage:
    this if another patch you are using already uses the default provided address.
 3. Apply this patch with ASAR.
 4. If !AlwaysEnabled is 0, enable it in a level by setting the !FreeRAM address:
-   - Option 1 - Copy library\StickySprites.asm into UberASM's library folder. To 
+   - Option 1 - Copy `library/StickySprites.asm` into UberASM's library folder. To 
                 enable, call `jsl StickySprites_Enable`. To disable, call 
                 `jsl StickySprites_Disable` (only needed if it has been enabled).
+                An example can be found at `level/example.asm`.
    - Option 2 - Set the !FreeRAM address to a nonzero value in your level code where
                 you want to enable it.
