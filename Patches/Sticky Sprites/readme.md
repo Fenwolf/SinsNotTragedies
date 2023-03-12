@@ -23,9 +23,9 @@ Info:
 
 Usage:
 
-0. Back up your ROM! Always create a backup before applying any patch. I also highly
-   recommend using Lunar Helper, which allows for safe unpatching/repatching in case
-   something goes wrong.
+0. Back up your ROM! Always create a backup before applying any patch. It is also 
+   highly recommend to use Lunar Helper, which allows for safe unpatching/repatching
+   in case something goes wrong.
 1. Set !AlwaysEnabled to 1 if you would like sticky keys mechanics to apply to all
    levels. Note: If this is set, behavior cannot be overridden.
 2. If needed, change !FreeRAM to a different address. You should only need to do
