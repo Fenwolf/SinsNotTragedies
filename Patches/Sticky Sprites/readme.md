@@ -31,8 +31,7 @@ and clear the value to disable it. Level UberASM to do this can be found in `sti
 2. If needed, change `!FreeRAM` to a different address. You should only need to do
    this if another patch you are using already uses the default provided address.
 3. Apply this patch with ASAR.
-
-UberASM that will enable Sticky Sprites for a level is provided with `stickyspriteslevel.asm`. This is only useful if `!AlwaysEnabled` is `0`.
+4. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This is only needed if `!AlwaysEnabled` is `0`.
 
 ### Advanced:
 
