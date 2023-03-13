@@ -24,7 +24,7 @@ and clear the value to disable it. Level UberASM to do this can be found in `sti
 1. Set `!AlwaysEnabled` to `1` if you would like sticky keys mechanics to apply to all
    levels. Note: If this is set, behavior cannot be overridden.
 2. Apply `StickySprites.asm` with ASAR.
-3. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This is only needed if `!AlwaysEnabled` is `0`.
+3. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This does not apply if `!AlwaysEnabled` is `1`.
 
 ### Advanced:
 
