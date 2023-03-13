@@ -1,5 +1,5 @@
 # Sins, Not Tragedies
-Haven't you people ever heard of closing the goddamn door?!
+I write one but not the other. Super Mario World hacks and code from the mind of Fén.
 
 # What the heck is this?
 
