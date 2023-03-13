@@ -16,11 +16,6 @@ allows for writing code to change whether Sticky Sprites is enabled dynamically
 within a level. Simply set the FreeRAM value to a nonzero value to enable it,
 and clear the value to disable it. Level UberASM to do this can be found in `stickyspriteslevel.asm`.
 
-## Info:
-* FreeRAM Needed: 1 byte
-* Default FreeRAM Address: `$1864`
-* SA-1 Compatible
-
 ## Usage:
 
 0. Back up your ROM! Always create a backup before applying any patch. It is also 
@@ -36,3 +31,8 @@ and clear the value to disable it. Level UberASM to do this can be found in `sti
 ### Advanced:
 
 Sticky Sprites will be enabled when any non-zero value is stored in `!FreeRAM`. You can modify this value from your code to dynamically enable/disable it.
+
+## Info:
+* FreeRAM Needed: 1 byte
+* Default FreeRAM Address: `$1864`
+* SA-1 Compatible
