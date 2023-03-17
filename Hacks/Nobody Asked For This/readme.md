@@ -29,3 +29,6 @@ binavik has long been one of the most supportive people I've ever met. His techn
 Found a bug? Unless it's game-breaking I probably won't fix it, but feel free to let me know, preferably via a comment somewhere. There are a couple of small bugs here and there that are known. Sorry, I'm not perfect.
 
 - Fén 🐺
+
+## <details><summary>Screenshots</summary>![Title Screen](screenshots/1.png) ![Hub Area](screenshots/2.png) ![Level preview with Mario hanging from a net](screenshots/3.png) ![Level preview with Mario in the air after throwing a shell](screenshots/4.png) ![Level preview with Mario holding a key](screenshots/5.png)
+</details>
