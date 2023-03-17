@@ -23,14 +23,16 @@ and clear the value to disable it. Level UberASM to do this can be found in `sti
    in case something goes wrong.
 1. Set `!AlwaysEnabled` to `1` if you would like sticky keys mechanics to apply to all
    levels. Note: If this is set, behavior cannot be overridden.
-2. If needed, change `!FreeRAM` to a different address. You should only need to do
-   this if another patch you are using already uses the default provided address.
-3. Apply this patch with ASAR.
-4. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This is only needed if `!AlwaysEnabled` is `0`.
+2. Apply `StickySprites.asm` with ASAR.
+3. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This does not apply if `!AlwaysEnabled` is `1`.
 
 ### Advanced:
 
 Sticky Sprites will be enabled when any non-zero value is stored in `!FreeRAM`. You can modify this value from your code to dynamically enable/disable it.
+
+If using this with another patch, it's possible the FreeRAM address used by Sticky Sprites conflicts with the FreeRAM used by other patches.
+If needed, change `!FreeRAM` to a different address. Ideally, use an address that is cleared on level load. If it isn't, you will need to clear it manually
+for levels that should not have it enabled. This value must be changed both in the main patch and any UberASM that uses it.
 
 ## Info:
 * FreeRAM Needed: 1 byte
