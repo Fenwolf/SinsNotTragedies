@@ -4,8 +4,8 @@ Please credit if used
 
 <br/>
 
-This patch allows you to enable "sticky sprites" on certain levels or all levels.
-"Sticky sprites" means that once the player is holding a sprite (key, throw block,
+This patch allows you to enable "Sticky Sprites" on certain levels or all levels.
+"Sticky Sprites" means that once the player is holding a sprite (key, throw block,
 koopa shell, etc.), they will not be able to let go until and unless something
 destroys the sprite, the sprite becomes uncarryable (eg galoombas), or Mario dies.
 
@@ -14,14 +14,14 @@ once the player is holding an item, they cannot walk. This patch addresses that
 potential drawback, however it is slightly more involved to use. This patch also
 allows for writing code to change whether Sticky Sprites is enabled dynamically
 within a level. Simply set the FreeRAM value to a nonzero value to enable it,
-and clear the value to disable it. Level UberASM to do this can be found in `stickyspriteslevel.asm`.
+and clear the value to disable it. Level UberASM to enable it can be found in `stickyspriteslevel.asm`.
 
 ## Usage:
 
 0. Back up your ROM! Always create a backup before applying any patch. It is also 
    highly recommend to use Lunar Helper, which allows for safe unpatching/repatching
    in case something goes wrong.
-1. Set `!AlwaysEnabled` to `1` if you would like sticky keys mechanics to apply to all
+1. Set `!AlwaysEnabled` to `1` if you would like Sticky Sprites to apply to all
    levels. Note: If this is set, behavior cannot be overridden.
 2. Apply `StickySprites.asm` with ASAR.
 3. To enable Sticky Sprites for a level, you can use the provided level UberASM: `stickyspriteslevel.asm`. This does not apply if `!AlwaysEnabled` is `1`.
