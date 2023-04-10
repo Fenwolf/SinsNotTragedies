@@ -2,8 +2,12 @@
 ### Written/designed by binavik, co-written/SA-1 support by Fén
 Please credit if used
 
-<br/>
+## Downloads
+Patch: [StickySprites.asm](https://raw.githubusercontent.com/Fenwolf/SinsNotTragedies/main/Patches/Sticky%20Sprites/StickySprites.asm)
 
+Level ASM to Enable: [stickyspriteslevel.asm](https://raw.githubusercontent.com/Fenwolf/SinsNotTragedies/main/Patches/Sticky%20Sprites/stickyspriteslevel.asm)
+
+## Overview
 This patch allows you to enable "Sticky Sprites" on certain levels or all levels.
 "Sticky Sprites" means that once the player is holding a sprite (key, throw block,
 koopa shell, etc.), they will not be able to let go until and unless something
