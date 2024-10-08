@@ -12,7 +12,7 @@
 
 ; Set this address to a non-zero value in level UberASM to enable sticky sprites for that level.
 ; Note: Unused with !AlwaysEnabled = 1
-!FreeRAM = $7C
+!FreeRAM = $1864
 
 
 if read1($00FFD5) == $23
