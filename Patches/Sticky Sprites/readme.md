@@ -1,5 +1,5 @@
 # Sticky Sprites
-### Written/designed by binavik, co-written/SA-1 support by Fén
+### Designed by binavik, written by Fén
 Please credit if used
 
 ## Downloads
@@ -23,7 +23,7 @@ and clear the value to disable it. Level UberASM to enable it can be found in `s
 ## Usage:
 
 0. Back up your ROM! Always create a backup before applying any patch. It is also 
-   highly recommend to use Lunar Helper, which allows for safe unpatching/repatching
+   highly recommend to use Callisto, which allows for safe unpatching/repatching
    in case something goes wrong.
 1. Set `!AlwaysEnabled` to `1` if you would like Sticky Sprites to apply to all
    levels. Note: If this is set, behavior cannot be overridden.
